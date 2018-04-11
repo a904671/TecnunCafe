@@ -45,6 +45,46 @@
         <servlet-name>MyInf</servlet-name>
         <servlet-class>MyInf</servlet-class>
     </servlet>
+	
+	<servlet>
+	 	<servlet-name>AddEMenu</servlet-name>
+		<servlet-class>AddEMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddEMenuToDB</servlet-name>
+		<servlet-class>AddEMenuToDB</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteEMenu</servlet-name>
+		<servlet-class>DeleteEMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteEMenuToDB</servlet-name>
+		<servlet-class>DeleteEMenuToDB</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddRMenu</servlet-name>
+		<servlet-class>AddRMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddRMenuToDB</servlet-name>
+		<servlet-class>AddRMenuToDB</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteRMenu</servlet-name>
+		<servlet-class>DeleteRMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteRMenuToDB</servlet-name>
+		<servlet-class>DeleteRMenuToDB</servlet-class>
+	</servlet>
 
     <servlet-mapping>
         <servlet-name>MyInf</servlet-name>
@@ -90,5 +130,45 @@
         <servlet-name>Vouchers</servlet-name>
         <url-pattern>/Vouchers</url-pattern>
     </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddEMenu</servlet-name>
+		<servlet-class>AddEMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddEMenuToDB</servlet-name>
+		<servlet-class>AddEMenuToDB</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteEMenu</servlet-name>
+		<servlet-class>DeleteEMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteEMenuToDB</servlet-name>
+		<servlet-class>DeleteEMenuToDB</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddRMenu</servlet-name>
+		<servlet-class>AddRMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddRMenuToDB</servlet-name>
+		<servlet-class>AddRMenuToDB</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteRMenu</servlet-name>
+		<servlet-class>DeleteRMenu</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteRMenuToDB</servlet-name>
+		<servlet-class>DeleteRMenuToDB</servlet-class>
+	</servlet>
 
 </web-app>
